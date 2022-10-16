@@ -1,0 +1,15 @@
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.personel_ekle.resources
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.personel_giris.resources
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.Properties.Resources.resources
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.csproj.GenerateResource.Cache
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\bin\Debug\HOSKmaximum.exe
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\bin\Debug\HOSKmaximum.pdb
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.exe
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.pdb
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.csprojResolveAssemblyReference.cache
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.sifreUnuttum.resources
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.film_secim.resources
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.film_ekle.resources
+C:\Users\ABRA-A7-52\Desktop\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.film_rezervasyonu.resources
+E:\ \DOSYALAR\Kaan\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.exe
+E:\ \DOSYALAR\Kaan\PROJE ÖDEVİ NTP\HOSKmaximum\HOSKmaximum\obj\x86\Debug\HOSKmaximum.pdb

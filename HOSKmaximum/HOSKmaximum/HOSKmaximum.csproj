@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C3353B8-F32E-4327-A6F9-2C76305C1A1D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HOSKmaximum</RootNamespace>
+    <AssemblyName>HOSKmaximum</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="film_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="film_ekle.Designer.cs">
+      <DependentUpon>film_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="film_rezervasyonu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="film_rezervasyonu.Designer.cs">
+      <DependentUpon>film_rezervasyonu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="film_secim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="film_secim.Designer.cs">
+      <DependentUpon>film_secim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personel_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personel_ekle.Designer.cs">
+      <DependentUpon>personel_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personel_giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personel_giris.Designer.cs">
+      <DependentUpon>personel_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sifreUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sifreUnuttum.Designer.cs">
+      <DependentUpon>sifreUnuttum.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="film_ekle.resx">
+      <DependentUpon>film_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="film_rezervasyonu.resx">
+      <DependentUpon>film_rezervasyonu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="film_secim.resx">
+      <DependentUpon>film_secim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel_ekle.resx">
+      <DependentUpon>personel_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel_giris.resx">
+      <DependentUpon>personel_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sifreUnuttum.resx">
+      <DependentUpon>sifreUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beautiful-red-chairs-on-the-cinema-hd-wallpaper_1440x900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardin-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
